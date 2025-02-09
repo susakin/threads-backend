@@ -1,34 +1,38 @@
+<h1 align="center">
+  threads-backend
+</h1>
+
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
+ <a href="docs/README.en.md">English</a>  | <a href="README.md">简体中文</a> 
 </p>
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
-
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
+<p align="center">
+  <a href="https://github.com/susakin/threads-backend/blob/master/LICENSE"><img src="https://img.shields.io/github/license/susakin/threads-backend" alt="License"></a>
+  <a><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"/></a>
 </p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
+`threads-backend` 是一个模仿 `threads` 的全栈项目。项目基于React，NesjJs，mongodb，当youtube订阅达到500的时候我会把后端项目也一起开源出来。
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## 链接
 
+【Threads Clone】#01：[Project Overview](https://www.youtube.com/watch?v=VKyUfLgA5Ko)  
+【Threads Clone】#02：[MutilStepContainer](https://www.youtube.com/watch?v=3t0OoDlCY_k)  
+【Threads Clone】#03：[useCacheState](https://www.youtube.com/watch?v=yTzHwWWqpok)  
+【Threads Clone】#04：[videoScheduler](https://www.youtube.com/watch?v=rdcjZ6LHGOs)  
+【Threads Clone】#05：[HideableComponent & Image](https://www.youtube.com/watch?v=b6DMlS_dHks)<br/>
+【Threads Clone】#06：[Mask](https://www.youtube.com/watch?v=H5z3Jufel6A)<br/>
+【Threads Clone】#07：[Threads web app open resource！ 开源啦 ](https://www.youtube.com/watch?v=sIEHxKcvVBw&t=5s)
+
+## 注意
+
+本项目仅适用于学习和研究，不得用于商业使用,或者做违法事情,后果自负。
+
+### 本地开发
 ## Installation
 
 ```bash
+git clone git@github.com:susakin/threads-backend.git
+cd threads-backend
 $ yarn install
 ```
 
@@ -58,16 +62,16 @@ $ yarn run test:e2e
 $ yarn run test:cov
 ```
 
-## Support
+## 讨论与支持
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+【discord】 [https://discord.gg/j7JPmhzt](https://discord.gg/j7JPmhzt)
 
-## Stay in touch
+## 功能与建议
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+目前项目处于开发初期，新功能正在持续添加中，如果你对软件有任何功能与建议，欢迎在 `Issues` 中提出
+如果你也喜欢本软件的设计思想，欢迎提交 `PR`，非常感谢你对我们的支持！
 
-## License
+## 许可协议
 
-Nest is [MIT licensed](LICENSE).
+[GPL](LICENSE)
+
